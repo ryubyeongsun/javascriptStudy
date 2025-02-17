@@ -16,12 +16,12 @@ console.log(iveMembers);
 //push()
 console.log(iveMembers.push('코드팩토리'));
 console.log(iveMembers);
-console.log('--------------');
+console.log('--------------pop');
 //pop()
 console.log(iveMembers.pop());
 console.log(iveMembers);
 
-console.log('--------------');
+console.log('--------------shift');
 //shift() 
 console.log(iveMembers.shift());
 console.log(iveMembers);
@@ -30,7 +30,7 @@ console.log(iveMembers);
 console.log(iveMembers.unshift('안유진'));
 console.log(iveMembers);
 
-console.log('--------------');
+console.log('--------------splice');
 //splice(a,b)  a인덱스부터 b개 삭제  
 console.log(iveMembers.splice(0,3));
 console.log(iveMembers);
