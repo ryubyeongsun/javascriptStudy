@@ -98,4 +98,4 @@ console.log(yuJin7);
 const numbers = [1, 3, 5];
 const numbers2 = [10, ...numbers];
 console.log(numbers2);
-// //
+// //..
