@@ -44,7 +44,7 @@ multiply(3,4);
 function multiply(x,y = 10){
     console.log(x*y);
 }
-
+console.log("------------");
 multiply(2,4);
 multiply(2);
 
@@ -52,7 +52,7 @@ multiply(2);
  * 반환받기
  * return 받기
  */
-console.log("------------");
+console.log("----------??--");
 function multiply(x,y){
     return x*y;
 }

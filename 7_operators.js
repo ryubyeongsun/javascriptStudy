@@ -162,7 +162,7 @@ console.log(true || "에스파");
 console.log(false || "에스파");
 console.log(false && "에스파");
 console.log(true && "에스파");
-
+console.log("--------");
 console.log(true && true && "에스파");
 console.log(true && false && "에스파");
 console.log((true && false) || "에스파");

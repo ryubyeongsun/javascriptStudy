@@ -2,7 +2,7 @@
  * copy by value 값에 의한 전달
  * copy by reference 참조에 의한 전달
  *
- * 1) 기본적으로 모든 primitive(object,function ,array)등을 빼고 모든 다른 데이터 타입 값은 copy by value 이다.
+ * 1) 기본적으로 모든 primitive(object,function ,array등을 뺀타입) 모든 다른 데이터 타입 값은 copy by value 이다.
  * 2) 객체는 copy by reference다
  */
 
