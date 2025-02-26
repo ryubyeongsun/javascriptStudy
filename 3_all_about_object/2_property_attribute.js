@@ -124,7 +124,10 @@ Object.defineProperty(yuJin2, 'height', {
     writable: true,
 });
 
+
 // configurable 을 false로 바꾸면 프로퍼티 에트리뷰트는 변경 불가능하지만
 // 예외가 있음
 // writable 이 true 일때는 value 값은 변경 가능
 // wiratble이 true일때 false로도 변경 가능 -> false에서 true는 안됨
+// *주의 한 번 configurable: false가 되면 다시 true로 변경할 수 없음. 삭제(delete obj.prop)도 불가능.
+// *값을 변경하고 싶다면 새로운 객체를 만들어야 함. 
