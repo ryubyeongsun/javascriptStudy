@@ -18,6 +18,7 @@ console.log(yuJin);
 /**
  * Extensible
  */
+console.log('---------Extensible-------------');
 console.log(Object.isExtensible(yuJin));
 
 yuJin['position'] = 'vacal'
