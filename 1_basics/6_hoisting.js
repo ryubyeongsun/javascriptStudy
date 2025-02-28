@@ -24,3 +24,12 @@ console.log("--------");
 
 console.log(hi);
 const hi = "as";
+
+console.log(a); // ✅ undefined (호이스팅 O, 초기화 O)
+var a = 10;
+
+console.log(b); // ❌ ReferenceError (TDZ 발생)
+let b = 20;
+
+console.log(c); // ❌ ReferenceError (TDZ 발생)
+const c = 30;
