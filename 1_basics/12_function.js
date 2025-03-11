@@ -63,6 +63,7 @@ console.log(result1);
 /**
  * Arrow 함수
  */
+console.log("-----Arrow------");
 const multiply2 = (x,y)=>{
     return x*y;
 }
@@ -102,8 +103,12 @@ console.log(multiplyThree(4,5,6));
 const multiplyAll = function(...arguments){
     return Object.values(arguments).reduce((a,b) => a*b,1);
 }
+const test11 = (...arguments) => {
+    return Object.values(arguments).reduce((a,b) => a*b,1);
+}
 
 console.log(multiplyAll(3,4,5,6,7,8,9,10));
+console.log(test11(3,4,5,6,7,8,9,10));
 
 // 함수명지정X 바로 실행 가로열고닫고
 // immediately invoked function

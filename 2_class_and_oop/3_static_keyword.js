@@ -5,7 +5,7 @@
 // class IdolModel{
 //     name;
 //     year;
-     // 인스턴스가아니라 클래스 자체에 귀속
+     //// 인스턴스가아니라 클래스 자체에 귀속
 //     static groupName = '아이브';
 
 //     constructor(name, year){

@@ -41,9 +41,10 @@ console.log(yujin2);
 
 yujin2['englishName'] = 'An Yu Jin';
 console.log(yujin2);
-
+console.log('----delete----');
 delete yujin2['englishName'];
 console.log(yujin2);
+
 
 /** 
  * const로 선언한 객체의 특징

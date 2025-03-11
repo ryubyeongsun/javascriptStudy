@@ -50,6 +50,7 @@ console.log(iveMembers.concat('코드팩토리'));
 console.log(iveMembers);
 
 // slice() -> splice와 다르게 배열에 적용x
+console.log('---------slice--------');
 console.log(iveMembers.slice(0,3));
 console.log(iveMembers);
 
@@ -112,7 +113,7 @@ numbers.sort((a,b)=> a>b ?-1 : 1);
 console.log(numbers);
 
 // map() => 원래 배열을 변경x 새로운 배열을 만듦
-console.log('--------------');
+console.log('-------map-------');
 console.log(iveMembers.map((x) => x));
 console.log(iveMembers.map((x) => `아이브: ${x}`));
 

@@ -32,8 +32,8 @@ originalObj["group"] = "코드팩토리";
 console.log(originalObj);
 console.log(cloneObj);
 
-console.log(originalObj === cloneObj);
-console.log(original === clone);
+console.log(originalObj === cloneObj); // true
+console.log(original === clone); // false
 
 originalObj2 = {
   name: "류병선",
@@ -69,12 +69,12 @@ console.log(yuJin2 === yuJin3);
 /**
  * Spread Operator
  */
-
+console.log('----Spread Operator----');
 const yuJin4 = {
   ...yuJin3,
 };
 console.log(yuJin4);
-console.log(yuJin4 === yuJin3);
+console.log(yuJin4 === yuJin3); //false
 
 const yuJin5 = {
   year: 2003,

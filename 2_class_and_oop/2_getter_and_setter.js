@@ -50,7 +50,7 @@ class IdolModel2{
         this.#name = name;
     }
 }
-
+console.log('---privat---');
 const yuJin2 = new IdolModel2('안유진', 2003);
 console.log(yuJin2);
 console.log(yuJin2.name);

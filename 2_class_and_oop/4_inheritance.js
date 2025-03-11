@@ -39,6 +39,7 @@ const cf = new IdolModel('류병선', 2000);
 console.log(cf);
 console.log(cf.name);
 
+console.log('----instanceof----');
 console.log(yuJin instanceof IdolModel);
 console.log(yuJin instanceof FemaleIdoModel);
 console.log(yuJin instanceof MaleIdoModel);
