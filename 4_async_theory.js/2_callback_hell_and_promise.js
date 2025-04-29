@@ -106,11 +106,7 @@ const getPromise = (seconds) =>
 // ✅ Promise.all() → 여러 개의 Promise를 병렬 실행
 //⚠️ 하나라도 실패하면 전체가 실패합니다.
 //tip promise->비동기
-Promise.all([
-    getPromise(1), 
-    getPromise(2), 
-    getPromise(1)
-]).then((res) => {
+Promise.all([getPromise(1), getPromise(2), getPromise(1)]).then((res) => {
   console.log(res);
 });
 
@@ -123,5 +119,3 @@ Promise.all([
 // Promise.race([step1(), step2(), step3()]).then((result) => {
 //     console.log("가장 먼저 끝난 작업:", result);
 //   });
-  
-  

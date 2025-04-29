@@ -42,6 +42,7 @@ console.log("-------------------");
  * String 타입
  */
 
+
 const codeFactory = "코드팩토리";
 console.log(typeof codeFactory);
 

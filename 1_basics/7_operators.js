@@ -56,6 +56,8 @@ console.log(result, number);
  * 숫자 타입이 아닌 타입에 +, - 사용하면 어떻게 될까?
  */
 
+console.log("---sample---");
+
 let sample = "99";
 
 console.log(+sample);
